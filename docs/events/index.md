@@ -1,0 +1,5 @@
+# Events
+
+Join us for a thrilling lineup of events! From bike rides through Stanley Park to escape rooms and kayaking adventures, we love creating unforgettable experiences. Don't miss out on the excitement—sign up for our mailing list to stay informed about upcoming events.
+
+Our events offer more than just thrilling escapades; they provide the perfect opportunity to meet fellow graduate students and make new friends. Whether you share the same program or come from different disciplines, these gatherings foster connections and create lasting bonds. Plus, attending at least one event during the academic year qualifies you to apply for our prestigious travel award, opening the door to incredible journeys and enhancing your academic pursuits. Join our vibrant community today and get ready for unforgettable adventures!

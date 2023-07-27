@@ -1,0 +1,85 @@
+# Organization Information
+site_name: iGSN
+
+# Style Sheets
+# extra_css:
+#   - stylesheets/extra.css
+
+# Configurations
+theme:
+  name: material
+  logo: assets/logo/igsn-logo.png
+  favicon: assets/logo/igsn-logo.png
+
+  # Static files
+  static_template:
+    - 404.html
+  
+  # Defaults from mkdocs_theme.yml
+  language: en
+  font:
+    text: Roboto
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections 
+    - navigation.expand
+    - navigation.indexes 
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+markdown_extensions:
+  - attr_list
+  - def_list
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/igsn.ubc
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/igsn-at-ubc/
+  generator: false
+
+# Page tree
+nav:
+  - Home: index.md
+  - Meet The Team: meet-the-team.md
+  - Events: 
+    - events/index.md
+    - 2022:
+      - events/2022/kayaking.md
+      - events/2022/biking.md
+    - 2021:
+      - events/2021/skating.md
+  - Services: 
+    - services/index.md
+    - Travel Award: services/travel-award.md
+    - Event Sponsorship: services/event-sponsorship.md
+  - INK Journal: 
+    - ink/index.md
+    - 2022:
+      - Issue 1:
+        - ink/2022/issue-1/example.md
+      - Issue 2:
+        - ink/2022/issue-2/example.md
+    - 2021:
+      - Issue 1:
+        - ink/2021/issue-1/example.md
+      - Issue 2:
+        - ink/2021/issue-2/example.md
+        - ink/2021/issue-2/example-01.md
